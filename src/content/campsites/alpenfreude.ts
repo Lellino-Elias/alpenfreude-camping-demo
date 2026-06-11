@@ -41,9 +41,9 @@ export const alpenfreude: CampsiteConfig = {
 
   pillars: [
     {
-      title: "Bergblick vom Stellplatz",
-      text: "Besonders beliebt: die Terrassenplätze mit Blick gen Osten auf Dobratsch, Karawanken und die Julischen Alpen.",
-      image: { src: `${IMG}/pitches-mountain-view.webp`, alt: "Stellplätze mit Wohnwagen und Vorzelten vor der Bergkulisse am Camping Alpenfreude" },
+      title: "Schattige Plätze unter alten Bäumen",
+      text: "Großzügige Wohnmobil- und Wohnwagenstellplätze bis zu 150 m², alle mit Strom — viele davon angenehm schattig unter alten Bäumen auf dem ruhigen Plateau im Naturpark Dobratsch.",
+      image: { src: `${IMG}/pitches-shade.png`, alt: "Schattige Wohnmobil- und Wohnwagenstellplätze unter großen Bäumen am Camping Alpenfreude im Naturpark Dobratsch" },
     },
     {
       title: "Ruhig & naturnah",
@@ -99,11 +99,6 @@ export const alpenfreude: CampsiteConfig = {
         text: "Schöne Stellplätze, umgeben von Bäumen und Wiesen, mit Blick auf Dobratsch, Karawanken und die Julischen Alpen.",
         image: { src: `${IMG}/pitches-trees.png`, alt: "Naturnahe Wohnwagen- und Zeltplätze zwischen Bäumen am Camping Alpenfreude" },
       },
-      {
-        title: "Plätze im Schatten",
-        text: "Auch schattige Wohnmobil- und Wohnwagenplätze unter Bäumen sind vorhanden — angenehm an heißen Sommertagen.",
-        image: { src: `${IMG}/pitches-shade.png`, alt: "Schattige Wohnmobilplätze unter Bäumen am Camping Alpenfreude" },
-      },
     ],
   },
 
@@ -144,8 +139,8 @@ export const alpenfreude: CampsiteConfig = {
     priceNote:
       "Richtpreise – auf der erfassten Website (Startseite) sind keine Preise veröffentlicht; diese Werte sind realistische Platzhalter und noch mit dem Platz zu bestätigen. In der Vor- und Nachsaison gelten ermäßigte Preise.",
     highlight: {
-      title: "Kärnten Card inklusive",
-      text: "Die Kärnten-Card-Wochenkarte gibt es direkt an unserer Rezeption — über 120 Ausflugsziele in Kärnten frei.",
+      title: "Kärnten Card an der Rezeption",
+      text: "Die KärntenCard-Wochenkarte ist direkt an unserer Rezeption erhältlich — über 120 Ausflugsziele in Kärnten inklusive.",
     },
     categories: [
       // PLATZHALTER-Richtpreise (keine Preise auf der gescrapten Quelle) — bitte bestätigen.
@@ -156,7 +151,6 @@ export const alpenfreude: CampsiteConfig = {
   },
 
   kontakt: {
-    coords: { lat: 46.608442, lng: 13.585221 },
     tel: "+43 660 755 60 38",
     telHref: "tel:+436607556038",
     mail: "info@alpenfreude.at",
