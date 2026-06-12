@@ -151,6 +151,7 @@ export const alpenfreude: CampsiteConfig = {
   },
 
   kontakt: {
+    coords: { lat: 46.608442, lng: 13.585221 },
     tel: "+43 660 755 60 38",
     telHref: "tel:+436607556038",
     mail: "info@alpenfreude.at",
